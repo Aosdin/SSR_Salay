@@ -17,3 +17,24 @@
     </v-col>
   </v-row>
 </template>
+<script>
+import Logo from '~/components/Logo.vue'
+import VuetifyLogo from '~/components/VuetifyLogo.vue'
+
+export default {
+  head: {
+    title: '테스트 Home page',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Home page description'
+      }
+    ],
+  },
+  components: {
+    Logo,
+    VuetifyLogo
+  }
+}
+</script>
